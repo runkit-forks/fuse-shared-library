@@ -22,7 +22,8 @@
   "dependencies": {
     "fuse-shared-library-darwin": "^1.0.3",
     "fuse-shared-library-linux": "^1.0.1",
-    "fuse-shared-library-linux-arm": "^1.0.0"
+    "fuse-shared-library-linux-arm": "^1.0.0",
+    "fuse-shared-library-linux-arm64": "runkit-forks/fuse-shared-library-linux-arm64#11e96e0745fd800ea3e0a4c8cc3b57fceba461cb"
   },
   "devDependencies": {
     "standard": "^12.0.1"

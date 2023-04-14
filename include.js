@@ -13,6 +13,9 @@ switch (platform) {
   case 'linux-arm':
     require('fuse-shared-library-linux-arm/include')
     break
+  case 'linux-arm64':
+    require('fuse-shared-library-linux-arm64/include')
+    break
   default:
     throw new Error(`fuse-shared-library is not currently supported on: ${platform}`)
 }
